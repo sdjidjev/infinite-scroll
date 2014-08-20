@@ -65,6 +65,12 @@ $(document).ready(function(){
 	    	appendImage();
 	   }
 	});
+
+	setInterval(function(){
+		if($(window).scrollTop() + $(window).height() >= $(document).height() - 200) {
+	    	appendImage();
+	   }
+	},3000);
 });
 
 // var $image = $('<img class="col-sm-12" src="img/0.jpg">');
