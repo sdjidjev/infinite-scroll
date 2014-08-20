@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	var fillInterval;
 	var min_pic = 0;
-	var max_pic = 43;
+	var max_pic = 79;
 	var lst = {};
 	var repeat = true;
 	resetLst();
