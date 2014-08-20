@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	var fillInterval;
 	var min_pic = 0;
-	var max_pic = 79;
+	var max_pic = 81;
 	var lst = {};
 	var repeat = true;
 	resetLst();
@@ -70,7 +70,7 @@ $(document).ready(function(){
 		if($(window).scrollTop() + $(window).height() >= $(document).height() - 200) {
 	    	appendImage();
 	   }
-	},3000);
+	},1000);
 });
 
 // var $image = $('<img class="col-sm-12" src="img/0.jpg">');
